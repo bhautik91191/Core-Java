@@ -1,6 +1,5 @@
 package com.corejava;
 
-
 //documentation to print “Hello world”.
 public class HelloWorld {
 
