@@ -1,7 +1,7 @@
 package com.corejava;
 
 /*
- Right Triangle Star Output :
+ Right triangle star output :
  * 
  * * 
  * * * 
@@ -14,13 +14,11 @@ public class RightTriangleStar {
 		int n = 5;
 		int i, j;
 		
-		for(i = 0; i<n; i++) //outer loop for number of rows(n) 
-		{  
-	        for(j = 0; j<=i; j++) // inner loop for columns
-	        {       
-	            System.out.print("* "); // print star
-	        }           
-        System.out.println(); // ending line after each row
+		for(i = 0; i < n; i++) {  // Outer loop for number of rows(n)
+			for(j = 0; j <= i; j++) { // Inner loop for column       
+			    System.out.print("* "); // Print star
+			}           
+        	   System.out.println(); // Ending line after each row
 		}
 	}
 
