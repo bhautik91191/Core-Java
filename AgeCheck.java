@@ -4,7 +4,7 @@ package com.corejava;
 public class AgeCheck {
 
 	public static void main(String[] args) {
-		int age = 30; // age is a variable with value 20 
+		int age = 30; // age is a variable with value 30 
 		
 		// if / else condition use
 		if (age < 25) 
