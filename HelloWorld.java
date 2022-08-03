@@ -1,7 +1,7 @@
 package com.corejava;
 
 /*
-Write a program to print “Hello world”.
+documentation to print “Hello world”.
 */
 public class HelloWorld {
 
