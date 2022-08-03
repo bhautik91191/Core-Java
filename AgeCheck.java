@@ -1,6 +1,10 @@
 package com.corejava;
 
-// Documentation to if else condition
+/**
+* @author  Bhautik Padmani
+* @version 1.0
+* @since   2022-08-3 
+*/
 public class AgeCheck {
 
 	public static void main(String[] args) {
@@ -9,8 +13,7 @@ public class AgeCheck {
 		// If / else condition use
 		if (ageSize < 25) {
 			System.out.println("Your Age is 25 Down");
-		} 
-		else {
+		}else {
 			System.out.println("Your Age is 25 Up");
 		}
 	}
