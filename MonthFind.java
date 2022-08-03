@@ -11,7 +11,7 @@ public class MonthFind {
 		  and find current month.
 		*/
 		switch (monthLength) {
-		      	case 1:
+			case 1:
 				System.out.println("current month is January");
 				break;
 			case 2:
