@@ -1,53 +1,57 @@
 package com.corejava;
 
-// Documentation to if else condition
+/**
+* Find the current month name from the given number
+* Uses Switch case statement
+*
+* @author  Bhautik Padmani
+* @version 1.8
+* @since   March 2014 
+*/
 public class MonthFind {
 
 	public static void main(String[] args) {
 		int monthLength = 5;
-		
-		/* 
-		  Uses switch case statement 
-		  and find current month.
-		*/
+
+		// Uses switch case statement and find current month.
 		switch (monthLength) {
 			case 1:
-				System.out.println("current month is January");
+				System.out.println("Current Month is January");
 				break;
 			case 2:
-				System.out.println("current month is February");
+				System.out.println("Current Month is February");
 				break;
 			case 3:
-				System.out.println("current month is March");
+				System.out.println("Current Month is March");
 				break;
 			case 4:
-				System.out.println("current month is April");
+				System.out.println("Current Month is April");
 				break;
 			case 5:
-				System.out.println("current month is May");
+				System.out.println("Current Month is May");
 				break;
 			case 6:
-				System.out.println("current month is June");
+				System.out.println("Current Month is June");
 				break;
 			case 7:
-				System.out.println("current month is July");
+				System.out.println("Current Month is July");
 				break;
 			case 8:
-				System.out.println("current month is August");
+				System.out.println("Current Month is August");
 				break;
 			case 9:
-				System.out.println("current month is September");
+				System.out.println("Current Month is September");
 				break;
 			case 10:
-				System.out.println("current month is October");
+				System.out.println("Current Month is October");
 				break;
 			case 11:
-				System.out.println("current month is November");
+				System.out.println("Current Month is November");
 				break;
 			case 12:
-				System.out.println("current month is December");
+				System.out.println("Current Month is December");
 				break;
-		}		
+		}
 	}
 
 }
