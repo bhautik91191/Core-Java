@@ -20,7 +20,7 @@ abstract class AbstractData1 {
 	}
 }
 
-class AbstractData2 extends AbstractData1{
+class AbstractData2 extends AbstractData1 {
 
 	@Override
 	public void setData() {
