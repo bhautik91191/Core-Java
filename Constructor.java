@@ -9,21 +9,21 @@ package com.corejava;
 * @version 1.8
 * @since   March 2014 
 */
-public class Constructors {
+public class Constructor {
 
 	// Constructor
-	public Constructors() {
+	public Constructor() {
 		System.out.println("Good Mornnig");
 	}
 
 	// Parameterized constructor
-	public Constructors(int number1, int number2) {
-		System.out.println("Total Sum is "+ (number1 + number2));
+	public Constructor(int number1, int number2) {
+		System.out.println("Total Sum is " + (number1 + number2));
 	}
 
 	public static void main(String[] args) {
-		Constructors firstConstructor = new Constructors();
-		Constructors secondConstructor = new Constructors(10, 20);
+		Constructor firstConstructor = new Constructor();
+		Constructor secondConstructor = new Constructor(10, 20);
 	}
 
 }
