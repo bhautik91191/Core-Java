@@ -38,14 +38,14 @@ class SuperDemo2 extends SuperDemo1 {
 
 	String colour = "White"; // Same name variable
 
-	public void showColo() {
+	public void showColour() {
 		System.out.println("My Favorite Colour.." + colour); // Prints color of SuperDemo2 class
 		System.out.println("My Favorite Colour.." + super.colour); // Prints color of SuperDemo1 class
 	}
 
 }
 
-public class ThisOrSuper_Demo {
+public class ThisOrSuperDemo {
 
 	public static void main(String[] args) {
 		ThisDemo thisDemo = new ThisDemo();
