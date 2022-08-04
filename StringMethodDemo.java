@@ -15,7 +15,7 @@ public class StringMethodDemo {
 		String stringObject = new String("This is QDEV Technolab...");
 
 		System.out.println("Orignal is..." + stringObject);
-		System.out.println("Lenth is..." + stringObject.length());
+		System.out.println("Length is..." + stringObject.length());
 		System.out.println("Uppercase is... " + stringObject.toUpperCase());
 		System.out.println("Lowercase is... " + stringObject.toLowerCase());
 		System.out.println("Substring is... " + stringObject.substring(2));
