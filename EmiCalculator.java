@@ -15,13 +15,14 @@ class Calculation {
 
 		rate = rate / (12 * 100); // One month interest
 		time = time * 12; // One month period
-        emi = (amount * rate * (float)Math.pow(1 + rate, time)) / (float)(Math.pow(1 + rate, time) - 1);
-        
-        System.out.println("Monthly EMI is = " + emi);
+                emi = (amount * rate * (float)Math.pow(1 + rate, time)) / (float)(Math.pow(1 + rate, time) - 1); 
+
+                System.out.println("Monthly EMI is = " + emi);
 	}
 
 }
-public class Emi_Calculator {
+
+public class EmiCalculator {
 
 	public static void main(String[] args) {
 		float amount, rate, time; // Variables and Datatypes
