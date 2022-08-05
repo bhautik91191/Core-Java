@@ -3,7 +3,7 @@ package com.corejava;
 /**
 * Compile Time Polymorphism
 * To same name method and parameter different
-* which add method would be called is determined by the parameter list at the compile time.
+* Which add method would be called is determined by the parameter list at the compile time.
 * That is the reason this is also known as compile time polymorphism.
 * 
 * @author  Bhautik Padmani
