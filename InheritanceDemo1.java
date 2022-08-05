@@ -30,6 +30,7 @@ class BranchName extends CollageStudent {
 		System.out.println("Student Rollno : " + studentRollno);
 		System.out.println("Branch Name : " + branchName);
 	}
+
 }
 
 class SportName extends BranchName {
