@@ -10,7 +10,7 @@ package com.corejava;
 * @version 1.8
 * @since   March 2014 
 */
-class SimpleCalculation {
+class Calculation {
 
 	// Same name method but argument different
 	public int add(int number1, int number2) {
@@ -27,7 +27,7 @@ class SimpleCalculation {
 public class CompileTimePolymorphism {
 
 	public static void main(String[] args) {
-		SimpleCalculation test = new SimpleCalculation();
+		Calculation test = new Calculation();
 		System.out.println("Print Result " + test.add(15, 30));
 		System.out.println("Print Result " + test.add(15, 30, 40));
 	}
