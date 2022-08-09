@@ -26,9 +26,9 @@ class BranchName extends CollageStudent {
 	String branchName = "computer";
 
 	public void display() {
-		System.out.println("Student Name : " + studentName);
-		System.out.println("Student Rollno : " + studentRollno);
-		System.out.println("Branch Name : " + branchName);
+		System.out.println("Student Name :" + studentName);
+		System.out.println("Student Rollno :" + studentRollno);
+		System.out.println("Branch Name : "+ branchName);
 	}
 
 }
@@ -38,10 +38,10 @@ class SportName extends BranchName {
 	String sportName = "Cricket";
 
 	public void display() {
-		System.out.println("Student Name : " + studentName);
-		System.out.println("Student Rollno : " + studentRollno);
-		System.out.println("Branch Name : " + branchName);
-		System.out.println("Sport Name : " + sportName);
+		System.out.println("Student Name :" + studentName);
+		System.out.println("Student Rollno :" + studentRollno);
+		System.out.println("Branch Name :" + branchName);
+		System.out.println("Sport Name :" + sportName);
 	}
 
 }
@@ -50,14 +50,14 @@ public class InheritanceDemo1 {
 
 	public static void main(String[] args) {
 		// Single Inheritance
-		BranchName branch = new BranchName();
-		branch.setData();
-		branch.display();
+		BranchName branchName = new BranchName();
+		branchName.setData();
+		branchName.display();
 
 		// Multi-level Inheritance
-		SportName sport = new SportName(); // Child class object
-		sport.setData(); // Call parent class method
-		sport.display(); // Call child class method
+		SportName sportName = new SportName(); // Child class object
+		branchName.setData(); // Call parent class method
+		branchName.display(); // Call child class method
 	}
 
 }
