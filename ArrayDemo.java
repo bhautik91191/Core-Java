@@ -11,7 +11,7 @@ package com.corejava;
 public class ArrayDemo {
 
 	public static void main(String[] args) {
-		int[] numbers = {1,2,3,4,5,6,7,8,9,10}; // Array declaration, instantiation and initialization
+		int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; // Array declaration, instantiation and initialization
 		System.out.println("Index of an array element " + numbers[3]); // Find the index of an array element.
 	}
 
