@@ -20,7 +20,6 @@ public class ArrayListAndIterator {
 		fruitList.add("Mango");
 		fruitList.add("Orange");
 		fruitList.add("Cherry");
-
 		// Print all the values using an iterator
 		Iterator list = fruitList.iterator();
 
