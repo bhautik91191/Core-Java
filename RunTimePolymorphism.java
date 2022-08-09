@@ -9,7 +9,7 @@ package com.corejava;
 * @version 1.8
 * @since   March 2014 
 */
-class PolymorphismTest {
+class PolymorphismDemo {
 
 	public void polymorphismMethod() {
 		System.out.println("Method One");
@@ -17,7 +17,7 @@ class PolymorphismTest {
 
 }
 
-public class RunTimePolymorphism extends PolymorphismTest {
+public class RunTimePolymorphism extends PolymorphismDemo {
 
 	@Override
 	public void polymorphismMethod() {
@@ -25,8 +25,8 @@ public class RunTimePolymorphism extends PolymorphismTest {
 	}
 
 	public static void main(String[] args) {
-		PolymorphismTest test = new RunTimePolymorphism();
-		test.polymorphismMethod(); // Run time only override method called
+		PolymorphismDemo test = new PolymorphismDemo();
+		test.PolymorphismDemo(); // Run time only override method called
 	}
 
 }
