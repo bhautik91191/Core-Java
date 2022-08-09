@@ -25,8 +25,8 @@ public class RunTimePolymorphism extends PolymorphismDemo {
 	}
 
 	public static void main(String[] args) {
-		PolymorphismDemo checkMethod = new PolymorphismDemo();
-		checkMethod.PolymorphismDemo(); // Run time only override method called
+		PolymorphismDemo polymorphismDemo = new PolymorphismDemo();
+		polymorphismDemo.PolymorphismDemo(); // Run time only override method called
 	}
 
 }
