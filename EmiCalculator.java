@@ -11,12 +11,10 @@ package com.corejava;
 class Calculation {
 	
 	public Calculation(float amount, float rate, float time) {
-		float emi;
-
 		rate = rate / (12 * 100); // One month interest
 		time = time * 12; // One month period
 		// When we provide amount of money i.e, amount, rate of interest, time and this program will calculate amount of emi.
-                emi = (amount * rate * (float)Math.pow(1 + rate, time)) / (float)(Math.pow(1 + rate, time) - 1); 
+                float emi = (amount * rate * (float)Math.pow(1 + rate, time)) / (float)(Math.pow(1 + rate, time) - 1); 
 
                 System.out.println("Monthly EMI is = " + emi);
 	}
