@@ -49,8 +49,8 @@ class Daughter extends Father {
 public class InheritanceDemo3 {
 
 	public static void main(String[] args) {
-		Daughter object = new Daughter();  
-		object.show();
+		Daughter daughter = new Daughter();  
+		daughter.show();
 	}
 
 }
