@@ -27,9 +27,9 @@ class Calculation {
 public class CompileTimePolymorphism {
 
 	public static void main(String[] args) {
-		Calculation test = new Calculation();
-		System.out.println("Print Result " + test.add(15, 30));
-		System.out.println("Print Result " + test.add(15, 30, 40));
+		Calculation calculation = new Calculation();
+		System.out.println("Print Result " + calculation.add(15, 30));
+		System.out.println("Print Result " + calculation.add(15, 30, 40));
 	}
 
 }
