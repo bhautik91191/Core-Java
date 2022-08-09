@@ -27,8 +27,8 @@ class EmployeeDetails implements EmployeeInter {
 public class InterFaceDemo {
 
 	public static void main(String[] args) {
-		EmployeeDetails employeeView = new EmployeeDetails();
-		employeeView.show();
+		EmployeeDetails employeeDetails = new EmployeeDetails();
+		employeeDetails.show();
 	}
 
 }
