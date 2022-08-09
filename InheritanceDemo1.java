@@ -50,14 +50,14 @@ public class InheritanceDemo1 {
 
 	public static void main(String[] args) {
 		// Single Inheritance
-		BranchName singleInheritance = new BranchName();
-		singleInheritance.setData();
-		singleInheritance.display();
+		BranchName branch = new BranchName();
+		branch.setData();
+		branch.display();
 
 		// Multi-level Inheritance
-		SportName multiLevelInheritance = new SportName(); // Child class object
-		multiLevelInheritance.setData(); // Call parent class method
-		multiLevelInheritance.display(); // Call child class method
+		SportName sport = new SportName(); // Child class object
+		sport.setData(); // Call parent class method
+		sport.display(); // Call child class method
 	}
 
 }
