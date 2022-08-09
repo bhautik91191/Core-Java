@@ -18,13 +18,14 @@ abstract class AbstractData1 {
 	public void show() {
 		System.out.println("My Name is " + myName);
 	}
+
 }
 
 class AbstractData2 extends AbstractData1 {
 
 	@Override
 	public void setData() {
-		myName = "BHautik";
+		myName = "Bhautik";
 	}
 
 }
@@ -32,9 +33,9 @@ class AbstractData2 extends AbstractData1 {
 public class AbstractDemo {
 
 	public static void main(String[] args) {
-		AbstractData2 demo = new AbstractData2();
-		demo.setData(); // Child class set method call
-		demo.show(); // Call Abstract class method
+		AbstractData2 abstractData = new AbstractData2();
+		abstractData.setData(); // Child class set method call
+		abstractData.show(); // Call Abstract class method
 	}
 
 }
