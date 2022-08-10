@@ -22,7 +22,7 @@ public class PersonalDetailsTxt {
 			int number;
 
 			// Loop
-			while((number = fileReader.read()) != -1) {
+			while ((number = fileReader.read()) != -1) {
 				System.out.print((char)number);
 			}
 			fileReader.close();
