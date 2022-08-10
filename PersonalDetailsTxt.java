@@ -26,8 +26,8 @@ public class PersonalDetailsTxt {
 				System.out.print((char)number);
 			}
 			fileReader.close();
-		} catch (Exception e) {
-			e.printStackTrace();
+		} catch (Exception exception) {
+			exception.printStackTrace();
 		}
 	}
 
