@@ -23,9 +23,7 @@ public class ComparableDemo {
 
 		while (iterator.hasNext()) {  
 			SchoolStudent student=(SchoolStudent)iterator.next();
-			System.out.println("Name:" + "" + student.getName() +
-							", RollNo:" + student.getRollNo() +
-							", Age:" + student.getAge());
+			System.out.println("Name:" + student.getName() + "RollNo:" + student.getRollNo() + "Age:" + student.getAge());
 		}
 	}
 
