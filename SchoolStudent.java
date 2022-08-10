@@ -48,7 +48,7 @@ public class SchoolStudent implements Comparable {
 
 	@Override
 	public int compareTo(Object object) {
-		SchoolStudent schoolStudent=(SchoolStudent)object;
+		SchoolStudent schoolStudent = (SchoolStudent)object;
 		return (this.name).compareTo(schoolStudent.name); // Compare to name
 	}
 
