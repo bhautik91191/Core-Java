@@ -19,8 +19,8 @@ public class CreateTxtFile {
 
 		try {
 			file.createNewFile();
-		} catch (Exception e) {
-			e.printStackTrace();
+		} catch (Exception exception) {
+			exception.printStackTrace();
 		}
 
 		try {
@@ -32,8 +32,8 @@ public class CreateTxtFile {
 			fileWriter.flush(); // File flush
 			fileWriter.close(); // File close
 			System.out.println("Data Write...");
-		} catch (IOException e) {
-			e.printStackTrace();
+		} catch (IOException exception) {
+			exception.printStackTrace();
 		}
 	}
 
