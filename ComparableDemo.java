@@ -19,10 +19,10 @@ public class ComparableDemo {
 		studentList.add(new SchoolStudent("Sunil", "MCA/67", 27));
 		studentList.add(new SchoolStudent("Munish", "MCA/90", 27));
 		// Use iterator
-		Iterator iterator=studentList.iterator();
+		Iterator iterator = studentList.iterator();
 
 		while (iterator.hasNext()) {  
-			SchoolStudent student=(SchoolStudent)iterator.next();
+			SchoolStudent student = (SchoolStudent)iterator.next();
 			System.out.println("Name:" + student.getName() + "RollNo:" + student.getRollNo() + "Age:" + student.getAge());
 		}
 	}
