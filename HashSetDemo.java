@@ -17,15 +17,18 @@ public class HashSetDemo {
 		HashSet employeeDetails = new HashSet();
 		System.out.println("Defult Size is..." + employeeDetails.size()); // HashSet Size
 		System.out.println("Defult Value is..." + employeeDetails); // HashSet Default Value
+
 		employeeDetails.add(100); // Add Value
 		employeeDetails.add("Bhautik");
 		employeeDetails.add(10.02f);
 		employeeDetails.add('Q');
 		employeeDetails.add("bhautik");
 		employeeDetails.add(new Integer(123));
+
 		System.out.println("Now Size is..." + employeeDetails.size());
 		System.out.println("Now Vlaue is..." + employeeDetails);
 		employeeDetails.remove("Bhautik"); // Remove element
+
 		System.out.println("Now Size is..." + employeeDetails.size());
 		System.out.println("Now Vlaue is..." + employeeDetails);
 		Iterator employeeIterator = employeeDetails.iterator();
