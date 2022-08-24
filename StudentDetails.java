@@ -3,7 +3,7 @@ import java.util.Comparator;
 
 /**
 * This class represents a SchoolStudent and
-* implements Comparable.
+* Implements Comparable.
 *
 * @author  Bhautik Padmani
 * @version 1.8
