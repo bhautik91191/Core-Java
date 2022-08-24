@@ -25,7 +25,7 @@ public class RightTriangleStar {
 			for (j = 0; j <= i; j++) {   
 			    System.out.print("* "); // Print star
 			}
-              	    System.out.println(); // Ending line after each row
+			System.out.println(); // Ending line after each row
 		}
 	}
 
