@@ -3,7 +3,7 @@ package com.corejava;
 /**
 * This Demo class two variable same name parameterized or local and uses this keyword
 * Two class parent and child class and extands to child to parent
-* parent local variale use to super keyword
+* Parent local variale use to super keyword
 *
 * @author  Bhautik Padmani
 * @version 1.8
