@@ -8,7 +8,6 @@ package com.corejava;
 * @version 1.8
 * @since   March 2014 
 */
-// Abstract class
 abstract class AbstractData1 {
 
 	String myName;
