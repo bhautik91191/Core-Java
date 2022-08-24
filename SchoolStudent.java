@@ -2,13 +2,12 @@ package com.corejava;
 
 /**
 * This class represents a SchoolStudent and
-* implements Comparable.
+* Implements Comparable.
 *
 * @author  Bhautik Padmani
 * @version 1.8
 * @since   March 2014
 */
-// Interface comparable
 public class SchoolStudent implements Comparable {
 
 	private String name;
