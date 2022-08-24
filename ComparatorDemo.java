@@ -26,7 +26,7 @@ public class ComparatorDemo {
 		Collections.sort(studentList, comparator);
 		System.out.println("Sorting by Name");
 
-		for(StudentDetails student: studentList) {
+		for (StudentDetails student: studentList) {
 			System.out.println(student.rollno + " " + student.name + " " + student.age);
 		}
 	}
