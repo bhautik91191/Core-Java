@@ -10,7 +10,6 @@ package com.corejava;
 * @version 1.8
 * @since   March 2014 
 */
-// Parent class
 class GrandFather {
 
 	public void show() {
