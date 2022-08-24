@@ -38,7 +38,6 @@ public class InheritanceDemo2 {
 		Dog dog = new Dog();
 		dog.voice();
 		dog.dogVoice();
-		//dog.camelVoice(); Not Find
 	}
 
 }
