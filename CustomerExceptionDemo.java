@@ -43,9 +43,11 @@ public class CustomerExceptionDemo {
 	public static void main(String[] args) {
 		Scanner userScanner = new Scanner(System.in);
 		ATM bankATM = new ATM();
+
 		System.out.println("Enter Deposit Amount : ");
 		double amount = userScanner.nextDouble();
 		bankATM.deposit(amount);
+
 		System.out.println("Enter Withdrawn Amount : ");
 		amount = userScanner.nextDouble();
 
