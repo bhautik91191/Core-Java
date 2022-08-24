@@ -8,7 +8,6 @@ package com.corejava;
 * @version 1.8
 * @since   March 2014
 */
-// Interface
 interface EmployeeInter {
 
 	String employeeName = "Bhautik";
