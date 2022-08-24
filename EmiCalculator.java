@@ -24,10 +24,10 @@ class Calculation {
 public class EmiCalculator {
 
 	public static void main(String[] args) {
-		float amount, rate, time; // Variables and Datatypes
-		amount = 15000;
-		rate = 10;
-		time = 2;
+		// Variables and Datatypes
+		float amount = 15000;
+		float rate = 10;
+		float time = 2;
 		
 		Calculation emi = new Calculation(amount, rate, time); // Object	
 	}
